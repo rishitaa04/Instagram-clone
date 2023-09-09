@@ -1,0 +1,235 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    display: flex;
+}
+.leftside{
+    position: fixed;
+    margin: -8px 0px 0px -8px;
+    height: 780px;
+    width: 228px;
+    border: 1.6px solid rgb(228, 218, 218);
+    /* background-color: aliceblue; */
+    position: fixed;
+}
+
+.logo{
+    height: 65px;
+    margin-top: 25px;
+    margin-left: 45px;
+}
+.home{
+    margin: 36px 20px 0px 6px ;
+    padding: 2px 1px 2px 50px;
+    font-size: 18px;
+    font-weight: 4px;
+}
+.home a{
+    margin-left: 7px ;
+    text-decoration: none;
+    color: black;
+}
+.home:hover{
+    background-color:rgb(228, 218, 218);
+    border-radius: 7px;
+    /* padding: 20px;  */
+}
+.profiles{
+    display: flex;
+    margin: 40px 4px 0px 10px ;
+    padding: 2px 0px 2px 50px;
+    font-size: 18px;
+    font-weight: 4px;
+}
+.img{
+    margin: -20px 0px 0px -30px;
+    border-radius: 100px;
+}
+.prof{
+    height: 60px;
+    width: 60px;
+}
+.profiles a{
+    text-decoration: none;
+    color: black;
+}
+.more{
+    margin: 44px 0px 0px -2px;
+    /* border: 1px solid black; */
+    padding: 2px 10px 2px 50px;
+    font-size: 20px;
+    /* gap: 52px; */
+    /* justify-content: space-between; */
+}
+.more a{
+    text-decoration: none;
+    color: black;
+}
+.centerpart{
+    margin-top: 0px;
+    height: 10000px;
+    margin: 0px 10px;
+
+    width: 1050px;
+    /* height: 100vw; */
+    /* border-block-end-width: ; */
+    /* background-color: yellow; */
+}
+.rightside{
+    /* position: fixed; */
+    display: flex;
+    margin-top: 40px;
+    width: 350px;
+    height: 500px;
+    /* background-color: black; */
+}
+.myprof{
+    display: flex;
+    /* padding: 10px; */
+}
+.me{
+    border-radius: 90px;
+    margin: 10px 0px 0px 20px;
+    height: 90px;
+    width: 90px;
+}
+.switches{
+    margin-left: 140px;
+    margin-top:46px;
+    float: right;
+    /* background-color: white; */
+    font-weight: 300;
+    font-weight: bold;
+    color: rgb(0, 153, 255);
+    /* color: rgb(91, 90, 90); */
+}
+.myimg{
+    display: flex;
+}
+.rishu{
+    margin-top: 36px;
+    font-weight: bold;
+}
+.rishita{
+    /* margin-top: 50px; */
+    padding: 8px;
+    font-weight: bold;
+    margin: 50px 0px 0px -98px;
+    color: rgb(129, 125, 125);
+}
+.suggestions{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.sgst{
+    margin: 110px 0px 0px -315px;
+    /* font-weight: normal; */
+    font-weight: 600;
+    color:  rgb(129, 125, 125);
+}
+.all{
+    margin-left: -49px;
+    font-weight: 600;
+}
+.sal{
+    margin-top: 110px;
+    /* margin-right: 100px; */
+}
+.annu{
+    border-radius: 100px;
+    margin: -1px 0px 0px -134px;
+    /* padding:; */
+    height: 60px;
+    width: 59px;
+    /* background-color: antiquewhite; */
+}
+.first{
+    display: flex;
+    /* background-color: aliceblue; */
+    margin: 150px -47px;
+    /* border: 1px solid yellow; */
+}
+.flw{
+    margin: 10px 0px 0px 73px;
+    color: rgb(0, 153, 255);
+    font-weight: 600;
+}
+.anu{
+    margin: -55px 0px 0px -61px;
+    font-weight: 600;
+}
+.ani{
+    margin: 1px 0px 0px -63px;
+    color: rgb(129, 125, 125);
+}
+.second{
+    margin: 219px 0px 0px 2px;
+    /* padding: -52px; */
+}
+.flwng{
+    margin: -48px 0px 0px -2px;
+    color: rgb(0, 153, 255);
+    font-weight: 600;
+}
+.mnkgpt{
+    margin: 1px 0px 0px -63px;
+    font-size: 13px;
+    /* background-color: black; */
+    /* padding: 10px; */
+    /* font-weight: 600; */
+    color: rgb(129, 125, 125);
+}
+.dev{
+    border-radius: 100px;
+    margin: 2px 0px 0px -134px;
+    /* padding:; */
+    height: 85x;
+    width: 59px;
+}
+.anshu{
+    border-radius: 100px;
+    margin: 80px 0px 0px -179px;
+    /* padding:; */
+    height: 85x;
+    width: 59px;
+}
+.anshi{
+    margin: -57px 0px 0px -110px;
+    font-weight: 600;
+}
+.ansh{
+    margin: 3px 0px 0px -110px;
+    font-size: 13px;
+    color: rgb(129, 125, 125);
+}
+.flwn{
+    color: rgb(0, 153, 255);
+    font-weight: 600;
+    margin:  35px 0px 0px -48px;
+}
+.h{
+    border-radius: 100px;
+    margin: 152px 0px 0px -183px;
+    /* padding:; */
+    height: 85x;
+    width: 59px;
+}
+.fl{
+    color: rgb(0, 153, 255);
+    font-weight: 600;
+    margin: 104px 0px 0px -50px;
+}
+.es{
+    border-radius: 100px;
+    margin: 224px 0px 0px -183px;
+    /* padding:; */
+    height: 85x;
+    width: 59px;
+}
+.flo{
+    color: rgb(0, 153, 255);
+    font-weight: 600;
+    margin:  169px 0px 0px -52px;
+}
